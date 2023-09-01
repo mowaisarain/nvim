@@ -43,3 +43,5 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 
+-- Markdown Preview
+keymap.set("n", "<leader>md", "<cmd>MarkdownPreview <cr>")

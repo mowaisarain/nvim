@@ -99,6 +99,9 @@ return packer.startup(function(use)
 -- git integration
   use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+-- nvim-markdown-preview
+  use("davidgranstrom/nvim-markdown-preview")
+
 -- end plugins section
 
   if packer_bootstrap then
