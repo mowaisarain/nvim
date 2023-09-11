@@ -3,7 +3,7 @@ my neovim settings
 
 ## Install Dependencies
 ```bash
-sudo apt install make build-essential libfuse2
+sudo apt install make build-essential pandoc libfuse2
 ```
 
 ## Install and Run Latest Neovim
