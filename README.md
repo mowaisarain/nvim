@@ -1,21 +1,15 @@
 # neovim-config
 my neovim settings  
 
-## Install Pluggin Dependencies
+## Install Dependencies
 ```bash
-sudo apt install npm`  
+sudo apt install make build-essential libfuse2
 ```
 
 ## Install and Run Latest Neovim
-Remove distribution neovim if installed. In case of debian 12:  
+Remove distribution neovim if installed:  
 ```bash
 sudo apt remove neovim`
-```
-
-## Ubuntu Dependencies
-requires *FUSE* installed for appimage:
-```bash
-sudo apt install libfuse2
 ```
 
 ## Install from appimage:
@@ -25,5 +19,3 @@ wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod +x nvim.appimage  
 ./nvim.appimage
 ```  
-
-
